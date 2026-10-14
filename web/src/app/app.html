@@ -1,0 +1,15 @@
+<mat-toolbar class="toolbar">
+  <a routerLink="/closet" class="brand">
+    <mat-icon fontSet="material-symbols-outlined">checkroom</mat-icon>
+    StyleVault
+  </a>
+  <nav aria-label="Main">
+    <a mat-button routerLink="/closet" routerLinkActive="active">Closet</a>
+    <a mat-button routerLink="/categories" routerLinkActive="active">Categories</a>
+    <a mat-button routerLink="/brands" routerLinkActive="active">Brands</a>
+  </nav>
+</mat-toolbar>
+
+<main>
+  <router-outlet />
+</main>

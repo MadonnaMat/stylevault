@@ -33,8 +33,9 @@ schema: spec-driven
 context: |
   Project: A closet organization tool and outfit recommender
   Form factor: Web app
-  Stack: Node.js, MongoDB, <determine backend framework>, Angular
-  Testing: <determine testing frameworks>; every behavior should be covered by tests
+  Stack: Node.js, MongoDB (Mongoose), NestJS, Angular
+  Testing: Jest + Supertest + mongodb-memory-server (API), Vitest (Angular),
+    Playwright (e2e smoke); every behavior should be covered by tests
   Style: Clean, modern, and user-friendly
 
 rules:

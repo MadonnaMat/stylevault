@@ -1,0 +1,14 @@
+packages:
+  - api
+  - web
+  - shared
+  - e2e
+
+# pnpm skips dependency install scripts unless they're listed here.
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - lmdb
+  - mongodb-memory-server
+  - msgpackr-extract
+  - unrs-resolver
