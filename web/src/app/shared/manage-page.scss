@@ -1,0 +1,22 @@
+// Shared by the categories and brands pages.
+.narrow { max-width: 720px; }
+.rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-radius: var(--mat-sys-corner-large);
+  background: var(--mat-sys-surface);
+  border: 1px solid var(--mat-sys-outline-variant);
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 64px;
+  padding: 8px 8px 8px 20px;
+  & + & { border-top: 1px solid var(--mat-sys-outline-variant); }
+}
+.name { flex: 1; font: var(--mat-sys-title-medium); }
+.slot { width: 160px; }
+.empty { color: var(--mat-sys-on-surface-variant); }
