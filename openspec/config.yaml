@@ -30,3 +30,13 @@ schema: spec-driven
 #     archive:
 #       guidance:
 #         - Summarize the archive outcome before finishing
+context: |
+  Project: A closet organization tool and outfit recommender
+  Form factor: Web app
+  Stack: Node.js, MongoDB, <determine backend framework>, Angular
+  Testing: <determine testing frameworks>; every behavior should be covered by tests
+  Style: Clean, modern, and user-friendly
+
+rules:
+  tasks:
+    - Include a test task for every requirement
